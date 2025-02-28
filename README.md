@@ -11,4 +11,6 @@ This project is built upon the [Siamese Research Paper.](https://www.cs.cmu.edu/
 Clone it to your local repository!
 ```
 git clone
+git clone https://github.com/Ashish-Reddy-T/Siamese-Face-Recognition-Model.git
+cd Siamese-Face-Recognition-Model
 ```
