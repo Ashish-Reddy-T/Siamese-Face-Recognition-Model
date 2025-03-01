@@ -156,7 +156,7 @@ Distributed under the MIT License.
 ## Acknowledgments
 
 - Original research: [Siamese Networks for One-shot Image Recognition](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf).
-- Special thanks to [Nicholas Renotte](https://www.youtube.com/@NicholasRenotte) for their guidance via the YouTube tutorial: [Deep Learning Project Tutorial](https://www.youtube.com/watch?v=bK_k7eebGgc&list=PLgNJO2hghbmhHuhURAGbe6KWpiYZt0AMH).
+- Special thanks to [Nicholas Renotte](https://www.youtube.com/@NicholasRenotte) for their guidance via a YouTube tutorial.
 - Built with [TensorFlow](https://www.tensorflow.org/), [Kivy](https://kivy.org/), and [OpenCV](https://opencv.org/).
 
 ---
