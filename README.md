@@ -133,7 +133,7 @@ def make_embedding():
 
 - __Precision__: ~95%
 - __Recall__: ~93%
-- __Verification Accuracy__: ~90% (with current thresholds)
+- __Verification Accuracy__: ~85% (with current thresholds)
 
 ---
 
