@@ -27,7 +27,7 @@ class CamApp(App):
         layout.add_widget(self.button)
         layout.add_widget(self.verification_label)
 
-        self.model = tf.keras.models.load_model('/Users/AshishR_T/Desktop/Timepass python projects/Deep Learning Model/app/siameseModelV2.h5', custom_objects={'L1Dist':L1Dist})
+        self.model = tf.keras.models.load_model('/Users/AshishR_T/Desktop/Timepass python projects/Deep Learning Model/app/siameseModelV3.h5', custom_objects={'L1Dist':L1Dist})
 
         self.capture = cv2.VideoCapture(0)
         Clock.schedule_interval(self.update, 1.0/33.0)
@@ -96,12 +96,7 @@ class CamApp(App):
         self.verification_label.text = 'Verified' if verified == True else 'Unverified'
 
         Logger.info(results)
-        Logger.info(np.sum(np.array(results)>0.4))
-        Logger.info(np.sum(np.array(results)>0.5))
-        Logger.info(np.sum(np.array(results)>0.8))
-        Logger.info(np.sum(np.array(results)>0.9))
-
-        print()
+        
         Logger.info(detection)
         Logger.info(verification)
         Logger.info(verified)
