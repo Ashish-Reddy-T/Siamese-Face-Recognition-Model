@@ -52,7 +52,7 @@ cd Siamese-Face-Recognition-Model
 │   └── verification_images/       # Reference database
 ├── layers.py                      # Custom L1 distance layer
 ├── faceid.py                      # Kivy application
-├── siameseModelV2.h5              # Pre-trained model
+├── siameseModelV3.h5              # Pre-trained model
 └── training_checkpoints/          # Training checkpoints (auto-generated)
 ```
 
